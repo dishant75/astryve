@@ -10,10 +10,10 @@ import com.finablr.admin.utilities.Common;
 
 public class LoginPageWrapper {
 
-	WebDriver localdriver;
+	WebDriver driver;
 
 	public LoginPageWrapper(WebDriver remotedriver) {
-		localdriver = remotedriver;
+		driver = remotedriver;
 		PageFactory.initElements(remotedriver, this);
 	}
 
@@ -34,7 +34,8 @@ public class LoginPageWrapper {
 
 //	Method to enter the Username
 	public void enterUsername(String uname) {
-		//Common.pause(1);
+		/*Common.pause(3);*/
+		Common.waitForElement(driver, txtboxUsername);
 		txtboxUsername.sendKeys(uname);
 	}
 
@@ -46,13 +47,11 @@ public class LoginPageWrapper {
 
 //	Method to click the Login button
 	public void clickLogin() {
-		for(int i=1;i<=26;i++)
-		{
+		Common.pause(1);
 		btnLogin.click();
 		Common.pause(2);
-		txtboxPassword.clear();
-		txtboxPassword.sendKeys(Integer.toString(i*1577688));
-		}
+		
+		
 	}
 	
 	/*public void checkRemeberMe()

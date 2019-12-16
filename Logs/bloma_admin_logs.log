@@ -1,7 +1,7 @@
-INFO  | 2019-11-26 15:18:22 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2019-11-26 15:18:25 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
-INFO  | 2019-11-26 15:18:25 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologinApplication2
-INFO  | 2019-11-26 15:18:26 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
-INFO  | 2019-11-26 15:18:29 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
-INFO  | 2019-11-26 15:19:29 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
-INFO  | 2019-11-26 15:19:29 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromloginApplication2
+INFO  | 2019-12-16 15:11:08 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
+INFO  | 2019-12-16 15:11:11 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
+INFO  | 2019-12-16 15:11:11 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologinApplication2
+INFO  | 2019-12-16 15:11:11 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
+INFO  | 2019-12-16 15:11:13 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
+INFO  | 2019-12-16 15:11:16 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
+INFO  | 2019-12-16 15:11:16 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromloginApplication2

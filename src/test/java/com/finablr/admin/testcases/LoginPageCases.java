@@ -29,7 +29,7 @@ public class LoginPageCases extends BaseClass {
 		LoginPageWrapper lp = new LoginPageWrapper(driver);
 		lp.enterUsername(ReadPropertiesFile.getProperty("username"));
 		log.info("Entered the Correct Username");
-		lp.enterPassword("bloma@123");
+		lp.enterPassword(ReadPropertiesFile.getProperty("password"));
 		log.info("Entered the Correct Password");
 		lp.clickLogin();
 		log.info("Clicked on Login Button");
