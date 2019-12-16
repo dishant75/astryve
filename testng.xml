@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="blomaAdminLogin">
+	<test name="Bloma Admin Login">
+		<parameter name="Browser" value="Chrome">
+			<classes>
+				<class name="com.finablr.admin.testcases.LoginPageCases" />
+				<!--  <class name="com.finablr.admin.testcases.TransactionListingCases" />
+				<class name="com.finablr.admin.testcases.ViewScreenCases" />  
+				 <class name="com.finablr.admin.testcases.TemplateManagement_Listing" /> 
+				 -->
+			</classes>
+		</parameter>
+	</test>
+</suite> 
+

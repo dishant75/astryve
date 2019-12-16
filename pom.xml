@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.finablr.bloma.admin</groupId>
+	<artifactId>automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>automation</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<junit-version>3.8.1</junit-version>
+		<testng-version>6.14.3</testng-version>
+		<apache-poi-version>4.1.0</apache-poi-version>
+		<apache-poiooxml-version>4.1.0</apache-poiooxml-version>
+		<Selenium-jar-version>3.141.59</Selenium-jar-version>
+		<Log4j-code-version>2.11.1</Log4j-code-version>
+		<Log4j-api-version>2.11.1</Log4j-api-version>
+		<common-io-version>2.6</common-io-version>
+		<commons-lang3-version>3.9</commons-lang3-version>
+	</properties>
+
+	<dependencies>
+		<!-- JUnit Dependency -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit-version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- TestNG Dependency -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng-version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Apache POI Dependency -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apache-poi-version}</version>
+		</dependency>
+
+		<!-- Apache POI OOXML -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache-poiooxml-version}</version>
+		</dependency>
+
+		<!-- Selenium JAR Files -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${Selenium-jar-version}</version>
+		</dependency>
+
+		<!-- Log4j Core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${Log4j-code-version}</version>
+		</dependency>
+
+		<!-- Log4j API -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${Log4j-api-version}</version>
+		</dependency>
+
+		<!-- Commons-IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${common-io-version}</version>
+		</dependency>
+
+		<!-- commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3-version}</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
