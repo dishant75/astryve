@@ -1,7 +1,15 @@
-INFO  | 2019-12-16 15:11:08 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2019-12-16 15:11:11 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
-INFO  | 2019-12-16 15:11:11 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologinApplication2
-INFO  | 2019-12-16 15:11:11 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
-INFO  | 2019-12-16 15:11:13 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
-INFO  | 2019-12-16 15:11:16 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
-INFO  | 2019-12-16 15:11:16 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromloginApplication2
+INFO  | 2019-12-16 16:27:59 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
+INFO  | 2019-12-16 16:28:01 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
+INFO  | 2019-12-16 16:28:01 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
+INFO  | 2019-12-16 16:28:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:23) - Enter into<init>
+INFO  | 2019-12-16 16:28:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:26) - Exit from<init>
+INFO  | 2019-12-16 16:28:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:49) - Enter intoenterUsername
+INFO  | 2019-12-16 16:28:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:53) - Exit fromenterUsername
+INFO  | 2019-12-16 16:28:01 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
+INFO  | 2019-12-16 16:28:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:58) - Enter intoenterPassword
+INFO  | 2019-12-16 16:28:04 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:61) - Exit fromenterPassword
+INFO  | 2019-12-16 16:28:04 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
+INFO  | 2019-12-16 16:28:04 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:66) - Enter intoclickLogin
+INFO  | 2019-12-16 16:28:09 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:76) - Exit fromclickLogin
+INFO  | 2019-12-16 16:28:09 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
+INFO  | 2019-12-16 16:28:09 | [main] testcases.LoginPageCases (LoginPageCases.java:39) - Exit fromlogin

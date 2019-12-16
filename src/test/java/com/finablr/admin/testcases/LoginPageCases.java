@@ -2,9 +2,11 @@ package com.finablr.admin.testcases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.finablr.admin.constants.LogConstants;
+import com.finablr.admin.locators.LoginPageLocators;
 import com.finablr.admin.utilities.BaseClass;
 import com.finablr.admin.utilities.ReadPropertiesFile;
 import com.finablr.admin.wrappers.LoginPageWrapper;
@@ -24,7 +26,7 @@ public class LoginPageCases extends BaseClass {
 	}*/
 
 	@Test
-	public void loginApplication2() {
+	public void login() {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		LoginPageWrapper lp = new LoginPageWrapper(driver);
 		lp.enterUsername(ReadPropertiesFile.getProperty("username"));
