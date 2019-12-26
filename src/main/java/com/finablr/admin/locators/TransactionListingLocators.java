@@ -10,6 +10,6 @@ public class TransactionListingLocators  {
 	public static final String TXTBOX_SEARCHBAR_XPATH="//input[@class='form-control']";
 	public static final String SORTUP_XPATH="//table//th[1]//a[@class=\"sortUp\"]";
 	public static final String 	SIDENAVIGATION_TRNSACTIONMANAGEMENT_XPATH="//span[contains(text(),'Transaction Management')]/..";
-	public static final String GET_ID_FROMTHESEARCH_XPATH="//table//tr/td[1]";
+	public static final String GET_ID_FROMTHESEARCH_XPATH="//table//tr/td[1]/a";
 
 }
