@@ -6,11 +6,11 @@
 		<parameter name="Browser" value="Chrome">
 			<classes>
 				<class name="com.finablr.admin.testcases.LoginPageCases" />
-				  <class name="com.finablr.admin.testcases.TransactionListingCases" />
-				<!--<class name="com.finablr.admin.testcases.ViewScreenCases" />  
+				 <!-- <class name="com.finablr.admin.testcases.TransactionListingCases" />
+				<class name="com.finablr.admin.testcases.ViewScreenCases" />  
 				 <class name="com.finablr.admin.testcases.TemplateManagement_Listing" /> 
-				 -->
-				 <class name="com.finablr.admin.testcases.ViewTransactionCases" />
+				 <class name="com.finablr.admin.testcases.ViewTransactionCases" /> -->
+				 <class name="com.finablr.admin.testcases.CategoryListingCases" />
 			</classes>
 		</parameter>
 	</test>

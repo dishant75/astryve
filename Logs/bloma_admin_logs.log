@@ -1,42 +1,28 @@
-INFO  | 2019-12-26 17:40:15 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2019-12-26 17:40:24 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
-INFO  | 2019-12-26 17:40:24 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
-INFO  | 2019-12-26 17:40:24 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:23) - Enter into<init>
-INFO  | 2019-12-26 17:40:24 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:26) - Exit from<init>
-INFO  | 2019-12-26 17:40:24 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:49) - Enter intoenterUsername
-INFO  | 2019-12-26 17:40:25 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:53) - Exit fromenterUsername
-INFO  | 2019-12-26 17:40:25 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
-INFO  | 2019-12-26 17:40:25 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:58) - Enter intoenterPassword
-INFO  | 2019-12-26 17:40:27 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:61) - Exit fromenterPassword
-INFO  | 2019-12-26 17:40:27 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
-INFO  | 2019-12-26 17:40:27 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:66) - Enter intoclickLogin
-INFO  | 2019-12-26 17:40:32 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:76) - Exit fromclickLogin
-INFO  | 2019-12-26 17:40:32 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
-INFO  | 2019-12-26 17:40:32 | [main] testcases.LoginPageCases (LoginPageCases.java:38) - Exit fromlogin
-INFO  | 2019-12-26 17:40:32 | [main] testcases.TransactionListingCases (TransactionListingCases.java:18) - Enter intotransactionListing
-INFO  | 2019-12-26 17:40:32 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:27) - Enter into<init>
-INFO  | 2019-12-26 17:40:32 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:30) - Exit from<init>
-INFO  | 2019-12-26 17:40:32 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:36) - Enter intogetTitleOfTrlisting
-INFO  | 2019-12-26 17:40:34 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:43) - Exit fromgetTitleOfTrlisting
-INFO  | 2019-12-26 17:40:34 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:63) - Enter intosearchArea
-INFO  | 2019-12-26 17:40:39 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:68) - Exit fromsearchArea
-INFO  | 2019-12-26 17:40:39 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:75) - Enter intoverifyTID
-INFO  | 2019-12-26 17:40:43 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:81) - Exit fromverifyTID
-INFO  | 2019-12-26 17:40:43 | [main] testcases.TransactionListingCases (TransactionListingCases.java:28) - Exit fromtransactionListing
-INFO  | 2019-12-26 17:40:43 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:19) - Enter intoviewTransaction
-INFO  | 2019-12-26 17:40:43 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:23) - Enter into<init>
-INFO  | 2019-12-26 17:40:43 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:26) - Exit from<init>
-INFO  | 2019-12-26 17:40:43 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:21) - Select Service from the First Dropdwon
-INFO  | 2019-12-26 17:40:43 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:35) - Enter intoselectFilter
-INFO  | 2019-12-26 17:40:48 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:40) - Exit fromselectFilter
-INFO  | 2019-12-26 17:40:48 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:23) - Select Gifting from the First Dropdwon
-INFO  | 2019-12-26 17:40:48 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:47) - Enter intoselectService
-INFO  | 2019-12-26 17:40:53 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:53) - Exit fromselectService
-INFO  | 2019-12-26 17:40:53 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:25) - Get All the Needed text and Click on the Transaction Id of the First Row from the List
-INFO  | 2019-12-26 17:40:53 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:66) - Enter intogetInfo
-INFO  | 2019-12-26 17:41:04 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:84) - Exit fromgetInfo
-INFO  | 2019-12-26 17:41:04 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:27) - Get All the Needed text from the View page
-INFO  | 2019-12-26 17:41:04 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:99) - Enter intogetviewElements
-INFO  | 2019-12-26 17:41:11 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:116) - Exit fromgetviewElements
-INFO  | 2019-12-26 17:41:11 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:29) - Compare All the Texts
-INFO  | 2019-12-26 17:41:11 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:121) - Enter intoverifyelements
+INFO  | 2019-12-30 17:07:40 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
+INFO  | 2019-12-30 17:07:42 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
+INFO  | 2019-12-30 17:07:42 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
+INFO  | 2019-12-30 17:07:42 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:23) - Enter into<init>
+INFO  | 2019-12-30 17:07:42 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:26) - Exit from<init>
+INFO  | 2019-12-30 17:07:42 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:49) - Enter intoenterUsername
+INFO  | 2019-12-30 17:07:42 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:53) - Exit fromenterUsername
+INFO  | 2019-12-30 17:07:42 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
+INFO  | 2019-12-30 17:07:42 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:58) - Enter intoenterPassword
+INFO  | 2019-12-30 17:07:44 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:61) - Exit fromenterPassword
+INFO  | 2019-12-30 17:07:44 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
+INFO  | 2019-12-30 17:07:44 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:66) - Enter intoclickLogin
+INFO  | 2019-12-30 17:07:50 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:76) - Exit fromclickLogin
+INFO  | 2019-12-30 17:07:50 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
+INFO  | 2019-12-30 17:07:50 | [main] testcases.LoginPageCases (LoginPageCases.java:38) - Exit fromlogin
+INFO  | 2019-12-30 17:07:50 | [main] testcases.CategoryListingCases (CategoryListingCases.java:19) - Enter intocategoryListing
+INFO  | 2019-12-30 17:07:50 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:25) - Enter into<init>
+INFO  | 2019-12-30 17:07:50 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:28) - Exit from<init>
+INFO  | 2019-12-30 17:07:50 | [main] testcases.CategoryListingCases (CategoryListingCases.java:21) - Verify the Page Title
+INFO  | 2019-12-30 17:07:50 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:39) - Enter intoverifyPageTitle
+INFO  | 2019-12-30 17:07:55 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:47) - Exit fromverifyPageTitle
+INFO  | 2019-12-30 17:07:55 | [main] testcases.CategoryListingCases (CategoryListingCases.java:23) - Search for the Specific Category
+INFO  | 2019-12-30 17:07:55 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:56) - Enter intosearchCategory
+INFO  | 2019-12-30 17:07:59 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:62) - Exit fromsearchCategory
+INFO  | 2019-12-30 17:07:59 | [main] testcases.CategoryListingCases (CategoryListingCases.java:25) - Verify the Search Result
+INFO  | 2019-12-30 17:07:59 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:70) - Enter intomatchCategory
+INFO  | 2019-12-30 17:08:02 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:76) - Exit frommatchCategory
+INFO  | 2019-12-30 17:08:02 | [main] testcases.CategoryListingCases (CategoryListingCases.java:27) - Exit fromcategoryListing
