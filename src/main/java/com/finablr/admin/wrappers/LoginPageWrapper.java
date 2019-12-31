@@ -10,13 +10,12 @@ import org.testng.Assert;
 
 import com.finablr.admin.constants.LogConstants;
 import com.finablr.admin.locators.LoginPageLocators;
-import com.finablr.admin.testcases.LoginPageCases;
 import com.finablr.admin.utilities.Common;
 
 public class LoginPageWrapper {
 
 	WebDriver driver;
-	public static Logger log = LogManager.getLogger(LoginPageCases.class);
+	public static Logger log = LogManager.getLogger(LoginPageWrapper.class);
 
 	
 	public LoginPageWrapper(WebDriver remotedriver) {

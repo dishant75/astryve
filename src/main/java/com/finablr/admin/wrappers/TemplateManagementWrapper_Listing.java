@@ -11,14 +11,13 @@ import org.testng.Assert;
 
 import com.finablr.admin.constants.LogConstants;
 import com.finablr.admin.locators.TemplateManagementListing_Loactors;
-import com.finablr.admin.testcases.LoginPageCases;
 import com.finablr.admin.utilities.Common;
 
 public class TemplateManagementWrapper_Listing {
 	
 	 WebDriver driver;
 	String code,contenttype,viewcode,viewcontenttype;
-	public static Logger log = LogManager.getLogger(LoginPageCases.class);
+	public static Logger log = LogManager.getLogger(TemplateManagementWrapper_Listing.class);
 	
 	public TemplateManagementWrapper_Listing(WebDriver driver) {
 		// TODO Auto-generated constructor stub
