@@ -11,6 +11,7 @@
 				 <class name="com.finablr.admin.testcases.TemplateManagement_Listing" /> -->
 				 <class name="com.finablr.admin.testcases.ViewTransactionCases" /> 
 				 <class name="com.finablr.admin.testcases.CategoryListingCases" />
+				 <class name="com.finablr.admin.testcases.ViewCategoryCases" />
 			</classes>
 		</parameter>
 	</test>

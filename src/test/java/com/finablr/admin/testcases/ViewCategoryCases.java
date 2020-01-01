@@ -19,7 +19,13 @@ public class ViewCategoryCases extends BaseClass {
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		ViewCategoryWrapper vc= new ViewCategoryWrapper(driver);
+		log.info("Get the All Category Information from the search result:");
+		vc.getCategoryDetails();
+		log.info("Get All Infromation related to the View Page");
+		vc.getViewPageDetails();
+		log.info("Verify All the Details");
+		vc.compareCategoryDetails();
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
-
+ 
 }
