@@ -56,7 +56,6 @@ public class LoginPageWrapper {
 	public void enterPassword(String pword) {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		txtboxPassword.sendKeys(pword);
-		Common.pause(2);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 
@@ -64,6 +63,7 @@ public class LoginPageWrapper {
 	public void clickLogin() {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.pause(1);
+		Common.clickableElement(btnLogin, driver);
 		btnLogin.click();
 		Common.pause(2);
 		Common.waitForElement(driver, username);
