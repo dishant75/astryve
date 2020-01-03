@@ -10,9 +10,10 @@
 				<class name="com.finablr.admin.testcases.ViewTransactionCases" /> 
 				<class name="com.finablr.admin.testcases.CategoryListingCases" />
 				<class name="com.finablr.admin.testcases.ViewCategoryCases" />
-				<class name="com.finablr.admin.testcases.AddCategoryCases" />-->
+				<class name="com.finablr.admin.testcases.AddCategoryCases" />
 				<class name="com.finablr.admin.testcases.TemplateListingCases" />
-				<class name="com.finablr.admin.testcases.ViewTemplateCases" />
+				<class name="com.finablr.admin.testcases.ViewTemplateCases" />-->
+				<class name="com.finablr.admin.testcases.AddHelpServicesCases" />
 			</classes>
 		</parameter>
 	</test>
