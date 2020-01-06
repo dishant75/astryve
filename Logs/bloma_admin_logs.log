@@ -1,21 +1,21 @@
-INFO  | 2020-01-03 17:36:33 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2020-01-03 17:36:35 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
-INFO  | 2020-01-03 17:36:35 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
-INFO  | 2020-01-03 17:36:35 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
-INFO  | 2020-01-03 17:36:35 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
-INFO  | 2020-01-03 17:36:35 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
-INFO  | 2020-01-03 17:36:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
-INFO  | 2020-01-03 17:36:36 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
-INFO  | 2020-01-03 17:36:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
-INFO  | 2020-01-03 17:36:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
-INFO  | 2020-01-03 17:36:36 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
-INFO  | 2020-01-03 17:36:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
-INFO  | 2020-01-03 17:36:41 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
-INFO  | 2020-01-03 17:36:41 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
-INFO  | 2020-01-03 17:36:41 | [main] testcases.LoginPageCases (LoginPageCases.java:38) - Exit fromlogin
-INFO  | 2020-01-03 17:36:41 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:17) - Enter intoaddservice
-INFO  | 2020-01-03 17:36:41 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:41) - Enter intohelpserviceListing
-INFO  | 2020-01-03 17:36:51 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:53) - Exit fromhelpserviceListing
-INFO  | 2020-01-03 17:36:51 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:71) - Enter intoaddhelpService
-INFO  | 2020-01-03 17:37:04 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:88) - Exit fromaddhelpService
-INFO  | 2020-01-03 17:37:04 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:21) - Exit fromaddservice
+INFO  | 2020-01-06 17:34:32 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
+INFO  | 2020-01-06 17:34:36 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
+INFO  | 2020-01-06 17:34:36 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
+INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
+INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
+INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
+INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
+INFO  | 2020-01-06 17:34:37 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
+INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
+INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
+INFO  | 2020-01-06 17:34:37 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
+INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
+INFO  | 2020-01-06 17:34:46 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
+INFO  | 2020-01-06 17:34:46 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
+INFO  | 2020-01-06 17:34:46 | [main] testcases.LoginPageCases (LoginPageCases.java:38) - Exit fromlogin
+INFO  | 2020-01-06 17:34:46 | [main] testcases.BlogListingCases (BlogListingCases.java:18) - Enter intoblogListing
+INFO  | 2020-01-06 17:34:46 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:38) - Enter intoverifyPage
+INFO  | 2020-01-06 17:34:48 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:46) - Exit fromverifyPage
+INFO  | 2020-01-06 17:34:48 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:66) - Enter intosearchBlog
+INFO  | 2020-01-06 17:35:17 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:89) - Exit fromsearchBlog
+INFO  | 2020-01-06 17:35:17 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:97) - Enter intoverifyTitle

@@ -12,8 +12,11 @@
 				<class name="com.finablr.admin.testcases.ViewCategoryCases" />
 				<class name="com.finablr.admin.testcases.AddCategoryCases" />
 				<class name="com.finablr.admin.testcases.TemplateListingCases" />
-				<class name="com.finablr.admin.testcases.ViewTemplateCases" />-->
+				<class name="com.finablr.admin.testcases.ViewTemplateCases" />
 				<class name="com.finablr.admin.testcases.AddHelpServicesCases" />
+				<class name="com.finablr.admin.testcases.DeleteHelpServicesCases" />
+				<class name="com.finablr.admin.testcases.AddIceBreakerCases" />-->
+				<class name="com.finablr.admin.testcases.BlogListingCases" />
 			</classes>
 		</parameter>
 	</test>
