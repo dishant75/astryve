@@ -71,7 +71,7 @@ public class LoginPageWrapper {
 		String getuname=username.getText();
 		System.out.println("User name is: "+getuname);
 		Common.pause(1);
-		Assert.assertTrue(getuname.equalsIgnoreCase("Hello BetaAdmin"));
+		Assert.assertTrue(getuname.equalsIgnoreCase("Hello Beta User"));
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());	
 	}
 	

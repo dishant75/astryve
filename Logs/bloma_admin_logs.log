@@ -1,21 +1,51 @@
-INFO  | 2020-01-06 17:34:32 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2020-01-06 17:34:36 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-uat.betatestingapp2019.com/
-INFO  | 2020-01-06 17:34:36 | [main] testcases.LoginPageCases (LoginPageCases.java:30) - Enter intologin
-INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
-INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
-INFO  | 2020-01-06 17:34:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
-INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
-INFO  | 2020-01-06 17:34:37 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Username
-INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
-INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
-INFO  | 2020-01-06 17:34:37 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Entered the Correct Password
-INFO  | 2020-01-06 17:34:37 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
-INFO  | 2020-01-06 17:34:46 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
-INFO  | 2020-01-06 17:34:46 | [main] testcases.LoginPageCases (LoginPageCases.java:37) - Clicked on Login Button
-INFO  | 2020-01-06 17:34:46 | [main] testcases.LoginPageCases (LoginPageCases.java:38) - Exit fromlogin
-INFO  | 2020-01-06 17:34:46 | [main] testcases.BlogListingCases (BlogListingCases.java:18) - Enter intoblogListing
-INFO  | 2020-01-06 17:34:46 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:38) - Enter intoverifyPage
-INFO  | 2020-01-06 17:34:48 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:46) - Exit fromverifyPage
-INFO  | 2020-01-06 17:34:48 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:66) - Enter intosearchBlog
-INFO  | 2020-01-06 17:35:17 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:89) - Exit fromsearchBlog
-INFO  | 2020-01-06 17:35:17 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:97) - Enter intoverifyTitle
+INFO  | 2020-01-07 14:37:03 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
+INFO  | 2020-01-07 14:37:09 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
+INFO  | 2020-01-07 14:37:09 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologin
+INFO  | 2020-01-07 14:37:09 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
+INFO  | 2020-01-07 14:37:09 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
+INFO  | 2020-01-07 14:37:09 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
+INFO  | 2020-01-07 14:37:10 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
+INFO  | 2020-01-07 14:37:10 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
+INFO  | 2020-01-07 14:37:10 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
+INFO  | 2020-01-07 14:37:10 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
+INFO  | 2020-01-07 14:37:10 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
+INFO  | 2020-01-07 14:37:10 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
+INFO  | 2020-01-07 14:37:15 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
+INFO  | 2020-01-07 14:37:15 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
+INFO  | 2020-01-07 14:37:15 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromlogin
+INFO  | 2020-01-07 14:37:15 | [main] testcases.TemplateListingCases (TemplateListingCases.java:19) - Enter intotemplateListing
+INFO  | 2020-01-07 14:37:15 | [main] testcases.TemplateListingCases (TemplateListingCases.java:20) - Verify Page title.
+INFO  | 2020-01-07 14:37:15 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:37) - Enter intoverifyPageTitle
+INFO  | 2020-01-07 14:37:20 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:46) - Exit fromverifyPageTitle
+INFO  | 2020-01-07 14:37:20 | [main] testcases.TemplateListingCases (TemplateListingCases.java:23) - Get the Template Code from the Listing
+INFO  | 2020-01-07 14:37:20 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:57) - Enter intotemplateListing
+INFO  | 2020-01-07 14:37:27 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:67) - Exit fromtemplateListing
+INFO  | 2020-01-07 14:37:27 | [main] testcases.TemplateListingCases (TemplateListingCases.java:25) - verify with Actual template Code
+INFO  | 2020-01-07 14:37:27 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:77) - Enter intoverifyList
+INFO  | 2020-01-07 14:37:30 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:84) - Exit fromverifyList
+INFO  | 2020-01-07 14:37:30 | [main] testcases.TemplateListingCases (TemplateListingCases.java:27) - Exit fromtemplateListing
+INFO  | 2020-01-07 14:37:30 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:18) - Enter intoviewTemplate
+INFO  | 2020-01-07 14:37:30 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:20) - Get the All Listing page details
+INFO  | 2020-01-07 14:37:30 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:42) - Enter intogetListingDetails
+INFO  | 2020-01-07 14:37:41 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:62) - Exit fromgetListingDetails
+INFO  | 2020-01-07 14:37:41 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:22) - Get the All View page details
+INFO  | 2020-01-07 14:37:41 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:82) - Enter intogetViewDetails
+INFO  | 2020-01-07 14:37:47 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:100) - Exit fromgetViewDetails
+INFO  | 2020-01-07 14:37:47 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:24) - Get the All View page details
+INFO  | 2020-01-07 14:37:47 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:106) - Enter intoverifyViewTemplateData
+INFO  | 2020-01-07 14:37:51 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:17) - Enter intoaddservice
+INFO  | 2020-01-07 14:37:51 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:41) - Enter intohelpserviceListing
+INFO  | 2020-01-07 14:38:01 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:53) - Exit fromhelpserviceListing
+INFO  | 2020-01-07 14:38:01 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:71) - Enter intoaddhelpService
+INFO  | 2020-01-07 14:38:14 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:88) - Exit fromaddhelpService
+INFO  | 2020-01-07 14:38:14 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:21) - Exit fromaddservice
+INFO  | 2020-01-07 14:38:14 | [main] testcases.DeleteHelpServicesCases (DeleteHelpServicesCases.java:19) - Enter intodeleteHelpServices
+INFO  | 2020-01-07 14:38:14 | [main] wrappers.DeleteHelpServicesWrapper (DeleteHelpServicesWrapper.java:38) - Enter intodeleteIcon
+INFO  | 2020-01-07 14:38:20 | [main] wrappers.DeleteHelpServicesWrapper (DeleteHelpServicesWrapper.java:50) - Exit fromdeleteIcon
+INFO  | 2020-01-07 14:38:20 | [main] testcases.DeleteHelpServicesCases (DeleteHelpServicesCases.java:22) - Exit fromdeleteHelpServices
+INFO  | 2020-01-07 14:38:20 | [main] testcases.AddIceBreakerCases (AddIceBreakerCases.java:19) - Enter intoaddIceBreakerFunctionality
+INFO  | 2020-01-07 14:38:20 | [main] wrappers.AddIcebreakerWrapper (AddIcebreakerWrapper.java:44) - Enter intoverifyPageTitle
+INFO  | 2020-01-07 14:38:27 | [main] wrappers.AddIcebreakerWrapper (AddIcebreakerWrapper.java:56) - Exit fromverifyPageTitle
+INFO  | 2020-01-07 14:38:27 | [main] wrappers.AddIcebreakerWrapper (AddIcebreakerWrapper.java:73) - Enter intoaddIcebreaker
+INFO  | 2020-01-07 14:38:34 | [main] wrappers.AddIcebreakerWrapper (AddIcebreakerWrapper.java:87) - Exit fromaddIcebreaker
+INFO  | 2020-01-07 14:38:34 | [main] testcases.AddIceBreakerCases (AddIceBreakerCases.java:23) - Exit fromaddIceBreakerFunctionality

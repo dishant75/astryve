@@ -10,7 +10,7 @@ import com.finablr.admin.wrappers.ViewCategoryWrapper;
 
 public class ViewCategoryCases extends BaseClass {
 	
-	public static Logger log = LogManager.getLogger(ViewTransactionCases.class);
+	public static Logger log = LogManager.getLogger(ViewCategoryCases.class);
 	
 	@Test
 	

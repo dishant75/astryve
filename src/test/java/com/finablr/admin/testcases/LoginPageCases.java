@@ -2,11 +2,9 @@ package com.finablr.admin.testcases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.finablr.admin.constants.LogConstants;
-import com.finablr.admin.locators.LoginPageLocators;
 import com.finablr.admin.utilities.BaseClass;
 import com.finablr.admin.utilities.ReadPropertiesFile;
 import com.finablr.admin.wrappers.LoginPageWrapper;

@@ -18,7 +18,7 @@ public class CategoryListingWrapper {
 	WebDriver driver;
 	String Header,Categoryresult;
 	String Actualtitle="Category Management";
-	String Categoryname="Education";
+	String Categoryname="Entertainment";
 	public static Logger log = LogManager.getLogger(ViewTransactionWrapper.class);
 	
 	public CategoryListingWrapper(WebDriver remotedriver) {

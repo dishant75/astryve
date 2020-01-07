@@ -49,7 +49,7 @@ public class ViewTransactionWrapper {
 		Select selectser=new Select(selservice);
 		Common.pause(1);
 		Common.waitForElement(driver, selservice);
-		selectser.selectByIndex(1);
+		selectser.selectByIndex(2);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 	@FindBy(xpath=ViewTransactionLocators.Get_TID)
@@ -84,8 +84,8 @@ public class ViewTransactionWrapper {
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 	
-	@FindBy(xpath=ViewTransactionLocators.Get_RefNo)
-	WebElement refrenceno;
+	@FindBy(xpath=ViewTransactionLocators.Get_TransactionID)
+	WebElement tid;
 	
 	@FindBy(xpath=ViewTransactionLocators.Get_SendMoney)
 	WebElement getsendMoney;
@@ -98,12 +98,12 @@ public class ViewTransactionWrapper {
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.pause(2);
-		Common.waitForElement(driver, refrenceno);
-		viewreferenceno=refrenceno.getText();
+		Common.waitForElement(driver, tid);
+		viewreferenceno=tid.getText();
 		Common.pause(1);
-		mainrefrence=viewreferenceno.trim().replace("Reference No: ","");
+		mainrefrence=viewreferenceno.replace("Transaction Id :","").trim();
 		Common.pause(1);
-		System.out.println("RefernceNumber is: "+mainrefrence);
+		System.out.println("Transaction ID is : "+mainrefrence);
 		Common.waitForElement(driver, getsendMoney);
 		viewsentamnt=getsendMoney.getText();
 		Common.pause(1);

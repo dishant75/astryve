@@ -61,7 +61,7 @@ public class TransactionListingWrapper  {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.pause(2);
 		Common.clickOn(driver, searchareatxt);
-		Common.type(searchareatxt, "RI000000351");
+		Common.type(searchareatxt, "RIU01000000007");
 		searchareatxt.sendKeys(Keys.ENTER);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
@@ -72,7 +72,7 @@ public class TransactionListingWrapper  {
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.pause(2);
-		String OriginID="RI000000351";
+		String OriginID="RIU01000000007";
 		String id= getid.getText();
 		Common.pause(2);
 		Assert.assertTrue(id.equalsIgnoreCase(OriginID),"Id Doesn't Match");

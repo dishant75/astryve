@@ -39,10 +39,10 @@ public class ViewCategoryWrapper {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.pause(2);
 		Common.waitForElement(driver, getcategoryname);
-		categoryName=getcategoryname.getText();
+		categoryName=getcategoryname.getText().trim();
 		System.out.println("Pagetitle is: "+categoryName);
 		Common.pause(1);
-		contifyId=getcontifyid.getText();
+		contifyId=getcontifyid.getText().trim();
 		Common.pause(1);
 		System.out.println("Pagetitle is: "+contifyId);
 		Common.clickableElement(viewicon, driver);
@@ -66,10 +66,10 @@ public class ViewCategoryWrapper {
 		Pagetitle=pageheader.getText();
 		System.out.println("Pagetitle is: "+Pagetitle);
 		Common.waitForElement(driver, viewcategory);
-		viewcategoryname= viewcategory.getText();
+		viewcategoryname= viewcategory.getText().trim();
 		Common.pause(2);
 		System.out.println("View Category name: "+viewcategoryname);
-		viewcontifyId= viewcategorycontifyid.getText();
+		viewcontifyId= viewcategorycontifyid.getText().trim();
 		Common.pause(1);
 		System.out.println("View ContifyId is: "+viewcontifyId);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
