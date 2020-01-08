@@ -2,6 +2,7 @@ package com.finablr.admin.wrappers;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -84,7 +85,7 @@ public class BlogListingWrapper {
 		Common.clickableElement(serachtxt, driver);
 		Common.clickOn(driver, serachtxt);
 		serachtxt.sendKeys(Actual_BlogTitle);
-		//serachtxt.sendKeys(Keys.ENTER);
+		serachtxt.sendKeys(Keys.ENTER);
 		Common.pause(2);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}

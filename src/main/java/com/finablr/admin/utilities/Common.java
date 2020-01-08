@@ -136,6 +136,17 @@ public class Common {
 	 * @param driver
 	 * @param element
 	 */
+	
+	public static void scrollUpToBottom(WebDriver driver)
+	{
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	}
+	public static void scrollUpToElement(WebDriver driver,WebElement element)
+	{
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+	
 	public static void scrollToHorizontal(WebDriver driver, WebElement element) {
 
 		Actions dragger = new Actions(driver);
@@ -169,7 +180,7 @@ public class Common {
 		WebElement draggablePartOfScrollbar = element;
 
 		// drag downwards
-		int numberOfPixelsToDragTheScrollbarDown = 50;
+		int numberOfPixelsToDragTheScrollbarDown = 5000;
 		for (int i = 10; i < 500; i = i + numberOfPixelsToDragTheScrollbarDown) {
 
 			//System.out.println("1");
