@@ -42,6 +42,7 @@ public class ViewBlogWrapper {
 		System.out.println("Blog Category in Result page: "+getCategory);
 		Common.clickableElement(gettitle, driver);
 		Common.clickOn(driver, gettitle);
+		Common.pause(2);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 	
@@ -57,13 +58,15 @@ public class ViewBlogWrapper {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
 		Common.waitForElement(driver, viewtitle);
 		getViewTitle=viewtitle.getText().trim();
-		System.out.println("Blog Title in Result page: "+getTitle);
+		System.out.println("Blog Title in Result page: "+getViewTitle);
 		Common.waitForElement(driver, viewcategory);
 		getViewCategory=viewcategory.getText().trim();
 		System.out.println("Blog Category in Result page: "+getViewCategory);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 	
+	@FindBy(xpath=ViewBlogLocators.Back_btn)
+	WebElement backbtn;
 	
 	public void compareDetails()
 	{
@@ -71,6 +74,9 @@ public class ViewBlogWrapper {
 		Common.pause(1);
 		Assert.assertTrue(getViewTitle.equalsIgnoreCase(getTitle), "Title Differ from each other.");
 		Assert.assertTrue(getViewCategory.equalsIgnoreCase(getCategory), "Categories are differ from each other");
+		Common.clickableElement(backbtn, driver);
+		Common.clickOn(driver, backbtn);
+		Common.pause(2);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
 
