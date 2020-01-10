@@ -24,6 +24,8 @@
 				<class name="com.finablr.admin.testcases.AddCountryServiceCases" />
 				<class name="com.finablr.admin.testcases.AddServiceProviderCases" />-->
 				<class name="com.finablr.admin.testcases.SubAdminListingCases" />
+				<class name="com.finablr.admin.testcases.ViewSubAdminCases" />
+				<class name="com.finablr.admin.testcases.AppUserListingCases" />
 			</classes>
 		</parameter>
 	</test>
