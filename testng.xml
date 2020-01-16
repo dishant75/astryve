@@ -26,6 +26,7 @@
 				<class name="com.finablr.admin.testcases.SubAdminListingCases" />
 				<class name="com.finablr.admin.testcases.ViewSubAdminCases" />
 				<class name="com.finablr.admin.testcases.AppUserListingCases" />
+				<class name="com.finablr.admin.testcases.ViewAppUserCases" />
 			</classes>
 		</parameter>
 	</test>
