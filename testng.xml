@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="blomaAdminLogin">
-	<test name="Bloma Admin Login">
+<suite name="Astryve Admin">
+	<test name="Astryve Admin Smoke Testing">
 		<parameter name="Browser" value="Chrome">
 			<classes>
 				<class name="com.finablr.admin.testcases.LoginPageCases" />

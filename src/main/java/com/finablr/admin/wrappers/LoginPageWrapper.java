@@ -14,13 +14,13 @@ import com.finablr.admin.utilities.Common;
 
 public class LoginPageWrapper {
 
-	WebDriver driver;
+	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(LoginPageWrapper.class);
 
 	
 	public LoginPageWrapper(WebDriver remotedriver) {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
-		driver = remotedriver;
+	driver = remotedriver;
 		PageFactory.initElements(remotedriver, this);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
 	}

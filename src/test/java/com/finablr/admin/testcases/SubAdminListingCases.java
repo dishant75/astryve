@@ -12,6 +12,7 @@ public class SubAdminListingCases extends BaseClass {
 	
 	public static Logger log = LogManager.getLogger(SubAdminListingCases.class);
 	
+	
 	@Test
 	
 	public void subAdminListingFunctionality()

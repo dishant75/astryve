@@ -1,39 +1,49 @@
-INFO  | 2020-01-16 16:20:59 | [main] utilities.BaseClass (BaseClass.java:25) - Browser Maximized
-INFO  | 2020-01-16 16:21:01 | [main] utilities.BaseClass (BaseClass.java:27) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
-INFO  | 2020-01-16 16:21:01 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologin
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
-INFO  | 2020-01-16 16:21:01 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
-INFO  | 2020-01-16 16:21:01 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
-INFO  | 2020-01-16 16:21:01 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
-INFO  | 2020-01-16 16:21:07 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
-INFO  | 2020-01-16 16:21:07 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
-INFO  | 2020-01-16 16:21:07 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromlogin
-INFO  | 2020-01-16 16:21:07 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:19) - Enter intosubAdminListingFunctionality
-INFO  | 2020-01-16 16:21:07 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:47) - Enter intosearchUser
-INFO  | 2020-01-16 16:21:16 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:72) - Exit fromsearchUser
-INFO  | 2020-01-16 16:21:16 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:22) - Exit fromsubAdminListingFunctionality
-INFO  | 2020-01-16 16:21:16 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:19) - Enter intoviewSubadminFunctionality
-INFO  | 2020-01-16 16:21:16 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:41) - Enter intogetSearchDetails
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:58) - Exit fromgetSearchDetails
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:75) - Enter intoviewdetails
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:95) - Exit fromviewdetails
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:101) - Enter intoveirfyResult
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:106) - Exit fromveirfyResult
-INFO  | 2020-01-16 16:21:21 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:24) - Exit fromviewSubadminFunctionality
-INFO  | 2020-01-16 16:21:21 | [main] testcases.AppUserListingCases (AppUserListingCases.java:19) - Enter intoappUserListingFunctionality
-INFO  | 2020-01-16 16:21:21 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:44) - Enter intosearchUser
-INFO  | 2020-01-16 16:21:30 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:67) - Exit fromsearchUser
-INFO  | 2020-01-16 16:21:30 | [main] testcases.AppUserListingCases (AppUserListingCases.java:22) - Exit fromappUserListingFunctionality
-INFO  | 2020-01-16 16:21:30 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:20) - Enter intoviewAppUserFunctionality
-INFO  | 2020-01-16 16:21:30 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:44) - Enter intogetSearchDetails
-INFO  | 2020-01-16 16:21:35 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:67) - Exit fromgetSearchDetails
-INFO  | 2020-01-16 16:21:35 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:89) - Enter intogetViewDetails
-INFO  | 2020-01-16 16:21:36 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:112) - Exit fromgetViewDetails
-INFO  | 2020-01-16 16:21:36 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:117) - Enter intocompareValues
-INFO  | 2020-01-16 16:21:36 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:129) - Exit fromcompareValues
-INFO  | 2020-01-16 16:21:36 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:25) - Exit fromviewAppUserFunctionality
+INFO  | 2020-01-17 17:24:51 | [main] utilities.BaseClass (BaseClass.java:38) - Browser Maximized
+INFO  | 2020-01-17 17:24:58 | [main] utilities.BaseClass (BaseClass.java:40) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
+DEBUG | 2020-01-17 17:24:58 | [main] utilities.BaseClass (BaseClass.java:126) - Enter intobeforeMethod
+DEBUG | 2020-01-17 17:24:58 | [main] utilities.BaseClass (BaseClass.java:128) - Exit frombeforeMethod
+INFO  | 2020-01-17 17:24:59 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologin
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
+INFO  | 2020-01-17 17:24:59 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
+INFO  | 2020-01-17 17:24:59 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
+INFO  | 2020-01-17 17:24:59 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
+INFO  | 2020-01-17 17:25:05 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
+INFO  | 2020-01-17 17:25:05 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
+INFO  | 2020-01-17 17:25:05 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromlogin
+DEBUG | 2020-01-17 17:25:05 | [main] utilities.BaseClass (BaseClass.java:126) - Enter intobeforeMethod
+DEBUG | 2020-01-17 17:25:05 | [main] utilities.BaseClass (BaseClass.java:128) - Exit frombeforeMethod
+INFO  | 2020-01-17 17:25:05 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:20) - Enter intosubAdminListingFunctionality
+INFO  | 2020-01-17 17:25:05 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:47) - Enter intosearchUser
+INFO  | 2020-01-17 17:25:14 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:72) - Exit fromsearchUser
+INFO  | 2020-01-17 17:25:14 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:23) - Exit fromsubAdminListingFunctionality
+DEBUG | 2020-01-17 17:25:14 | [main] utilities.BaseClass (BaseClass.java:126) - Enter intobeforeMethod
+DEBUG | 2020-01-17 17:25:14 | [main] utilities.BaseClass (BaseClass.java:128) - Exit frombeforeMethod
+INFO  | 2020-01-17 17:25:14 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:19) - Enter intoviewSubadminFunctionality
+INFO  | 2020-01-17 17:25:14 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:41) - Enter intogetSearchDetails
+INFO  | 2020-01-17 17:25:18 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:58) - Exit fromgetSearchDetails
+INFO  | 2020-01-17 17:25:18 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:75) - Enter intoviewdetails
+INFO  | 2020-01-17 17:25:19 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:95) - Exit fromviewdetails
+INFO  | 2020-01-17 17:25:19 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:101) - Enter intoveirfyResult
+INFO  | 2020-01-17 17:25:19 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:106) - Exit fromveirfyResult
+INFO  | 2020-01-17 17:25:19 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:24) - Exit fromviewSubadminFunctionality
+DEBUG | 2020-01-17 17:25:19 | [main] utilities.BaseClass (BaseClass.java:126) - Enter intobeforeMethod
+DEBUG | 2020-01-17 17:25:19 | [main] utilities.BaseClass (BaseClass.java:128) - Exit frombeforeMethod
+INFO  | 2020-01-17 17:25:19 | [main] testcases.AppUserListingCases (AppUserListingCases.java:19) - Enter intoappUserListingFunctionality
+INFO  | 2020-01-17 17:25:19 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:44) - Enter intosearchUser
+INFO  | 2020-01-17 17:25:28 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:67) - Exit fromsearchUser
+INFO  | 2020-01-17 17:25:28 | [main] testcases.AppUserListingCases (AppUserListingCases.java:22) - Exit fromappUserListingFunctionality
+DEBUG | 2020-01-17 17:25:28 | [main] utilities.BaseClass (BaseClass.java:126) - Enter intobeforeMethod
+DEBUG | 2020-01-17 17:25:28 | [main] utilities.BaseClass (BaseClass.java:128) - Exit frombeforeMethod
+INFO  | 2020-01-17 17:25:28 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:20) - Enter intoviewAppUserFunctionality
+INFO  | 2020-01-17 17:25:28 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:44) - Enter intogetSearchDetails
+INFO  | 2020-01-17 17:25:33 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:67) - Exit fromgetSearchDetails
+INFO  | 2020-01-17 17:25:33 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:89) - Enter intogetViewDetails
+INFO  | 2020-01-17 17:25:34 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:112) - Exit fromgetViewDetails
+INFO  | 2020-01-17 17:25:34 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:117) - Enter intocompareValues
+INFO  | 2020-01-17 17:25:34 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:129) - Exit fromcompareValues
+INFO  | 2020-01-17 17:25:34 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:25) - Exit fromviewAppUserFunctionality

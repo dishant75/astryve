@@ -14,7 +14,7 @@ import com.finablr.admin.utilities.Common;
 
 public class ViewAppUserWrapper {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	String fullname,mobile,email,status,view_fullname,view_mobile,view_email,view_status,Header;
 	String Actual_Header="View App User";
 	
