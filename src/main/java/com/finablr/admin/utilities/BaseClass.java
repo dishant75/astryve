@@ -27,8 +27,9 @@ public class BaseClass {
    public static  WebDriver driver;
 	public static Logger log = LogManager.getLogger(BaseClass.class);
 	 public ExtentHtmlReporter htmlreporter;
-	public static ExtentTest extenttest;
-	public static ExtentReports extent;
+	public ExtentTest extenttest;
+	public  ExtentReports extent=new ExtentReports();
+	
 
 
 	@BeforeSuite
@@ -39,8 +40,8 @@ public class BaseClass {
 		driver.get(ReadPropertiesFile.getProperty("URL"));
 		log.info("URL fetched from the config file" + ReadPropertiesFile.getProperty("URL"));
 		
-		 htmlreporter = new ExtentHtmlReporter("extent.html");
-		 extent= new ExtentReports();
+		 htmlreporter = new ExtentHtmlReporter("extentReport.html");
+		 
 		extent.attachReporter(htmlreporter);
 		
 	}
@@ -49,7 +50,7 @@ public class BaseClass {
 	
 	public void setExtent()
 	{
-		htmlreporter=new ExtentHtmlReporter("extentReport.html");
+		//htmlreporter=new ExtentHtmlReporter("extentReport.html");
 		
 		htmlreporter.config().setDocumentTitle("Automation Report");
 		htmlreporter.config().setReportName("Astryve Smoke Testing of Admin Portal");
@@ -124,6 +125,7 @@ public class BaseClass {
 	public void beforeMethod (Method method) {
 		
 		log.debug(LogConstants.LOG_ENTER + Thread.currentThread().getStackTrace()[1].getMethodName());
+		//extent= new ExtentReports();
 		extenttest = extent.createTest(method.getName());
 		log.debug(LogConstants.LOG_EXIT + Thread.currentThread().getStackTrace()[1].getMethodName());
 	}
