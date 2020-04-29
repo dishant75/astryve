@@ -16,6 +16,7 @@ public class ViewTemplateCases extends BaseClass {
 	public void viewTemplate()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To verify that View Template Functionality.");
 		ViewTemplateWrapper vw= new ViewTemplateWrapper(driver);
 		log.info("Get the All Listing page details");
 		vw.getListingDetails();

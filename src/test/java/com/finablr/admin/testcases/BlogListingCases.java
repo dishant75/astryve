@@ -16,6 +16,7 @@ public class BlogListingCases extends BaseClass {
 	public void blogListing()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify that Blog Listing Screen.");
 		BlogListingWrapper bw= new BlogListingWrapper(driver);
 		bw.verifyPage();
 		bw.searchBlog();

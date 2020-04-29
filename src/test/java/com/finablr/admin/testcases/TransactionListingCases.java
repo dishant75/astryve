@@ -16,6 +16,7 @@ public class TransactionListingCases extends BaseClass {
 	public void transactionListing()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("Transaction Listing TestCase");
 		TransactionListingWrapper tw= new TransactionListingWrapper(driver);
 		Common.logcase("TC_1 : TO verify Transaction Listing Funactionlaity");
 		Common.logstep("Get the Title of the Page and Verify to the Origin.");

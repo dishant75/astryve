@@ -18,6 +18,7 @@ public class SubAdminListingCases extends BaseClass {
 	public void subAdminListingFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("TO verify that Sub admin Listing Functionality.");
 		SubAdminListingWrapper sw= new SubAdminListingWrapper(driver);
 		sw.searchUser();
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());

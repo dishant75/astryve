@@ -17,6 +17,7 @@ public class AppUserListingCases extends BaseClass {
 	public void appUserListingFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify that AppUser Functionality");
 		AppUserListingWrapper aw= new AppUserListingWrapper(driver);
 		aw.searchUser();
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());

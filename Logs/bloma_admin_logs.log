@@ -1,49 +1,190 @@
-INFO  | 2020-01-20 15:48:27 | [main] utilities.BaseClass (BaseClass.java:39) - Browser Maximized
-INFO  | 2020-01-20 15:48:29 | [main] utilities.BaseClass (BaseClass.java:41) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
-DEBUG | 2020-01-20 15:48:30 | [main] utilities.BaseClass (BaseClass.java:127) - Enter intobeforeMethod
-DEBUG | 2020-01-20 15:48:30 | [main] utilities.BaseClass (BaseClass.java:130) - Exit frombeforeMethod
-INFO  | 2020-01-20 15:48:30 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologin
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:22) - Enter into<init>
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:25) - Exit from<init>
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:48) - Enter intoenterUsername
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:52) - Exit fromenterUsername
-INFO  | 2020-01-20 15:48:30 | [main] testcases.LoginPageCases (LoginPageCases.java:31) - Entered the Correct Username
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
-INFO  | 2020-01-20 15:48:30 | [main] testcases.LoginPageCases (LoginPageCases.java:33) - Entered the Correct Password
-INFO  | 2020-01-20 15:48:30 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
-INFO  | 2020-01-20 15:48:36 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:75) - Exit fromclickLogin
-INFO  | 2020-01-20 15:48:36 | [main] testcases.LoginPageCases (LoginPageCases.java:35) - Clicked on Login Button
-INFO  | 2020-01-20 15:48:36 | [main] testcases.LoginPageCases (LoginPageCases.java:36) - Exit fromlogin
-DEBUG | 2020-01-20 15:48:36 | [main] utilities.BaseClass (BaseClass.java:127) - Enter intobeforeMethod
-DEBUG | 2020-01-20 15:48:36 | [main] utilities.BaseClass (BaseClass.java:130) - Exit frombeforeMethod
-INFO  | 2020-01-20 15:48:36 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:20) - Enter intosubAdminListingFunctionality
-INFO  | 2020-01-20 15:48:36 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:47) - Enter intosearchUser
-INFO  | 2020-01-20 15:48:45 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:72) - Exit fromsearchUser
-INFO  | 2020-01-20 15:48:45 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:23) - Exit fromsubAdminListingFunctionality
-DEBUG | 2020-01-20 15:48:45 | [main] utilities.BaseClass (BaseClass.java:127) - Enter intobeforeMethod
-DEBUG | 2020-01-20 15:48:45 | [main] utilities.BaseClass (BaseClass.java:130) - Exit frombeforeMethod
-INFO  | 2020-01-20 15:48:45 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:19) - Enter intoviewSubadminFunctionality
-INFO  | 2020-01-20 15:48:45 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:41) - Enter intogetSearchDetails
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:58) - Exit fromgetSearchDetails
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:75) - Enter intoviewdetails
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:95) - Exit fromviewdetails
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:101) - Enter intoveirfyResult
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:106) - Exit fromveirfyResult
-INFO  | 2020-01-20 15:48:50 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:24) - Exit fromviewSubadminFunctionality
-DEBUG | 2020-01-20 15:48:50 | [main] utilities.BaseClass (BaseClass.java:127) - Enter intobeforeMethod
-DEBUG | 2020-01-20 15:48:50 | [main] utilities.BaseClass (BaseClass.java:130) - Exit frombeforeMethod
-INFO  | 2020-01-20 15:48:50 | [main] testcases.AppUserListingCases (AppUserListingCases.java:19) - Enter intoappUserListingFunctionality
-INFO  | 2020-01-20 15:48:50 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:44) - Enter intosearchUser
-INFO  | 2020-01-20 15:48:59 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:67) - Exit fromsearchUser
-INFO  | 2020-01-20 15:48:59 | [main] testcases.AppUserListingCases (AppUserListingCases.java:22) - Exit fromappUserListingFunctionality
-DEBUG | 2020-01-20 15:48:59 | [main] utilities.BaseClass (BaseClass.java:127) - Enter intobeforeMethod
-DEBUG | 2020-01-20 15:48:59 | [main] utilities.BaseClass (BaseClass.java:130) - Exit frombeforeMethod
-INFO  | 2020-01-20 15:48:59 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:20) - Enter intoviewAppUserFunctionality
-INFO  | 2020-01-20 15:48:59 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:44) - Enter intogetSearchDetails
-INFO  | 2020-01-20 15:49:04 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:67) - Exit fromgetSearchDetails
-INFO  | 2020-01-20 15:49:04 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:89) - Enter intogetViewDetails
-INFO  | 2020-01-20 15:49:05 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:112) - Exit fromgetViewDetails
-INFO  | 2020-01-20 15:49:05 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:117) - Enter intocompareValues
-INFO  | 2020-01-20 15:49:05 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:129) - Exit fromcompareValues
-INFO  | 2020-01-20 15:49:05 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:25) - Exit fromviewAppUserFunctionality
+INFO  | 2020-02-03 12:37:57 | [main] utilities.BaseClass (BaseClass.java:54) - Browser Maximized
+INFO  | 2020-02-03 12:38:05 | [main] utilities.BaseClass (BaseClass.java:56) - URL fetched from the config filehttps://adminportal-qa.betatestingapp2019.com/
+DEBUG | 2020-02-03 12:38:06 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:38:06 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:38:06 | [main] testcases.LoginPageCases (LoginPageCases.java:28) - Enter intologin
+INFO  | 2020-02-03 12:38:06 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:21) - Enter into<init>
+INFO  | 2020-02-03 12:38:06 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:24) - Exit from<init>
+INFO  | 2020-02-03 12:38:06 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:47) - Enter intoenterUsername
+INFO  | 2020-02-03 12:38:06 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:51) - Exit fromenterUsername
+INFO  | 2020-02-03 12:38:06 | [main] testcases.LoginPageCases (LoginPageCases.java:32) - Entered the Correct Username
+INFO  | 2020-02-03 12:38:06 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:57) - Enter intoenterPassword
+INFO  | 2020-02-03 12:38:07 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:59) - Exit fromenterPassword
+INFO  | 2020-02-03 12:38:07 | [main] testcases.LoginPageCases (LoginPageCases.java:34) - Entered the Correct Password
+INFO  | 2020-02-03 12:38:07 | [main] wrappers.LoginPageWrapper (LoginPageWrapper.java:64) - Enter intoclickLogin
+DEBUG | 2020-02-03 12:38:12 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()2
+DEBUG | 2020-02-03 12:38:12 | [main] utilities.BaseClass (BaseClass.java:141) - in failed conditionlogin
+DEBUG | 2020-02-03 12:38:13 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:38:13 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:38:13 | [main] testcases.TransactionListingCases (TransactionListingCases.java:18) - Enter intotransactionListing
+INFO  | 2020-02-03 12:38:13 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:25) - Enter into<init>
+INFO  | 2020-02-03 12:38:13 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:28) - Exit from<init>
+INFO  | 2020-02-03 12:38:13 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:34) - Enter intogetTitleOfTrlisting
+INFO  | 2020-02-03 12:38:15 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:41) - Exit fromgetTitleOfTrlisting
+INFO  | 2020-02-03 12:38:15 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:61) - Enter intosearchArea
+INFO  | 2020-02-03 12:38:19 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:66) - Exit fromsearchArea
+INFO  | 2020-02-03 12:38:19 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:73) - Enter intoverifyTID
+INFO  | 2020-02-03 12:38:23 | [main] wrappers.TransactionListingWrapper (TransactionListingWrapper.java:79) - Exit fromverifyTID
+INFO  | 2020-02-03 12:38:23 | [main] testcases.TransactionListingCases (TransactionListingCases.java:29) - Exit fromtransactionListing
+DEBUG | 2020-02-03 12:38:23 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:38:23 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition transactionListing
+DEBUG | 2020-02-03 12:38:23 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:38:23 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:38:23 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:19) - Enter intoviewTransaction
+INFO  | 2020-02-03 12:38:23 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:23) - Enter into<init>
+INFO  | 2020-02-03 12:38:23 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:26) - Exit from<init>
+INFO  | 2020-02-03 12:38:23 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:22) - Select Service from the First Dropdwon
+INFO  | 2020-02-03 12:38:23 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:35) - Enter intoselectFilter
+INFO  | 2020-02-03 12:38:29 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:40) - Exit fromselectFilter
+INFO  | 2020-02-03 12:38:29 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:24) - Select Gifting from the First Dropdwon
+INFO  | 2020-02-03 12:38:29 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:47) - Enter intoselectService
+INFO  | 2020-02-03 12:38:33 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:53) - Exit fromselectService
+INFO  | 2020-02-03 12:38:33 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:26) - Get All the Needed text and Click on the Transaction Id of the First Row from the List
+INFO  | 2020-02-03 12:38:33 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:66) - Enter intogetInfo
+INFO  | 2020-02-03 12:38:44 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:84) - Exit fromgetInfo
+INFO  | 2020-02-03 12:38:44 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:28) - Get All the Needed text from the View page
+INFO  | 2020-02-03 12:38:44 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:99) - Enter intogetviewElements
+INFO  | 2020-02-03 12:38:52 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:116) - Exit fromgetviewElements
+INFO  | 2020-02-03 12:38:52 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:30) - Compare All the Texts
+INFO  | 2020-02-03 12:38:52 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:121) - Enter intoverifyelements
+INFO  | 2020-02-03 12:38:58 | [main] wrappers.ViewTransactionWrapper (ViewTransactionWrapper.java:129) - Exit fromverifyelements
+INFO  | 2020-02-03 12:38:58 | [main] testcases.ViewTransactionCases (ViewTransactionCases.java:32) - Exit fromviewTransaction
+DEBUG | 2020-02-03 12:38:58 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:38:58 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition viewTransaction
+DEBUG | 2020-02-03 12:38:58 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:38:58 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:38:58 | [main] testcases.CategoryListingCases (CategoryListingCases.java:19) - Enter intocategoryListing
+INFO  | 2020-02-03 12:38:58 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:25) - Enter into<init>
+INFO  | 2020-02-03 12:38:58 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:28) - Exit from<init>
+INFO  | 2020-02-03 12:38:58 | [main] testcases.CategoryListingCases (CategoryListingCases.java:22) - Verify the Page Title
+INFO  | 2020-02-03 12:38:58 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:39) - Enter intoverifyPageTitle
+INFO  | 2020-02-03 12:39:03 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:47) - Exit fromverifyPageTitle
+INFO  | 2020-02-03 12:39:03 | [main] testcases.CategoryListingCases (CategoryListingCases.java:24) - Search for the Specific Category
+INFO  | 2020-02-03 12:39:03 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:56) - Enter intosearchCategory
+INFO  | 2020-02-03 12:39:08 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:62) - Exit fromsearchCategory
+INFO  | 2020-02-03 12:39:08 | [main] testcases.CategoryListingCases (CategoryListingCases.java:26) - Verify the Search Result
+INFO  | 2020-02-03 12:39:08 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:70) - Enter intomatchCategory
+INFO  | 2020-02-03 12:39:11 | [main] wrappers.CategoryListingWrapper (CategoryListingWrapper.java:76) - Exit frommatchCategory
+INFO  | 2020-02-03 12:39:11 | [main] testcases.CategoryListingCases (CategoryListingCases.java:28) - Exit fromcategoryListing
+DEBUG | 2020-02-03 12:39:11 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:39:11 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition categoryListing
+DEBUG | 2020-02-03 12:39:11 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:39:11 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:39:11 | [main] testcases.ViewCategoryCases (ViewCategoryCases.java:20) - Enter intoviewCategory
+INFO  | 2020-02-03 12:39:11 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:22) - Enter into<init>
+INFO  | 2020-02-03 12:39:11 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:25) - Exit from<init>
+INFO  | 2020-02-03 12:39:11 | [main] testcases.ViewCategoryCases (ViewCategoryCases.java:23) - Get the All Category Information from the search result:
+INFO  | 2020-02-03 12:39:11 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:39) - Enter intogetCategoryDetails
+INFO  | 2020-02-03 12:39:17 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:50) - Exit fromgetCategoryDetails
+INFO  | 2020-02-03 12:39:17 | [main] testcases.ViewCategoryCases (ViewCategoryCases.java:25) - Get All Infromation related to the View Page
+INFO  | 2020-02-03 12:39:17 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:64) - Enter intogetViewPageDetails
+INFO  | 2020-02-03 12:39:22 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:75) - Exit fromgetViewPageDetails
+INFO  | 2020-02-03 12:39:22 | [main] testcases.ViewCategoryCases (ViewCategoryCases.java:27) - Verify All the Details
+INFO  | 2020-02-03 12:39:22 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:80) - Enter intocompareCategoryDetails
+INFO  | 2020-02-03 12:39:25 | [main] wrappers.ViewCategoryWrapper (ViewCategoryWrapper.java:87) - Exit fromcompareCategoryDetails
+INFO  | 2020-02-03 12:39:25 | [main] testcases.ViewCategoryCases (ViewCategoryCases.java:29) - Exit fromviewCategory
+DEBUG | 2020-02-03 12:39:25 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:39:25 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition viewCategory
+DEBUG | 2020-02-03 12:39:25 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:39:25 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:39:25 | [main] testcases.TemplateListingCases (TemplateListingCases.java:19) - Enter intotemplateListing
+INFO  | 2020-02-03 12:39:25 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:37) - Enter intoverifyPageTitle
+INFO  | 2020-02-03 12:39:30 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:46) - Exit fromverifyPageTitle
+INFO  | 2020-02-03 12:39:30 | [main] testcases.TemplateListingCases (TemplateListingCases.java:23) - Get the Template Code from the Listing
+INFO  | 2020-02-03 12:39:30 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:57) - Enter intotemplateListing
+INFO  | 2020-02-03 12:39:37 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:67) - Exit fromtemplateListing
+INFO  | 2020-02-03 12:39:37 | [main] testcases.TemplateListingCases (TemplateListingCases.java:25) - verify with Actual template Code
+INFO  | 2020-02-03 12:39:37 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:77) - Enter intoverifyList
+INFO  | 2020-02-03 12:39:40 | [main] wrappers.TemplateListingWrapper (TemplateListingWrapper.java:84) - Exit fromverifyList
+INFO  | 2020-02-03 12:39:40 | [main] testcases.TemplateListingCases (TemplateListingCases.java:27) - Exit fromtemplateListing
+DEBUG | 2020-02-03 12:39:40 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:39:40 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition templateListing
+DEBUG | 2020-02-03 12:39:40 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:39:40 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:39:40 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:18) - Enter intoviewTemplate
+INFO  | 2020-02-03 12:39:40 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:21) - Get the All Listing page details
+INFO  | 2020-02-03 12:39:40 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:42) - Enter intogetListingDetails
+INFO  | 2020-02-03 12:39:51 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:62) - Exit fromgetListingDetails
+INFO  | 2020-02-03 12:39:51 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:23) - Get the All View page details
+INFO  | 2020-02-03 12:39:51 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:82) - Enter intogetViewDetails
+INFO  | 2020-02-03 12:39:57 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:100) - Exit fromgetViewDetails
+INFO  | 2020-02-03 12:39:57 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:25) - Get the All View page details
+INFO  | 2020-02-03 12:39:57 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:106) - Enter intoverifyViewTemplateData
+INFO  | 2020-02-03 12:40:01 | [main] wrappers.ViewTemplateWrapper (ViewTemplateWrapper.java:118) - Exit fromverifyViewTemplateData
+INFO  | 2020-02-03 12:40:01 | [main] testcases.ViewTemplateCases (ViewTemplateCases.java:27) - Exit fromviewTemplate
+DEBUG | 2020-02-03 12:40:01 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:40:01 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition viewTemplate
+DEBUG | 2020-02-03 12:40:01 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:40:01 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:40:01 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:17) - Enter intoaddservice
+INFO  | 2020-02-03 12:40:01 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:41) - Enter intohelpserviceListing
+INFO  | 2020-02-03 12:40:11 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:53) - Exit fromhelpserviceListing
+INFO  | 2020-02-03 12:40:11 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:71) - Enter intoaddhelpService
+INFO  | 2020-02-03 12:40:25 | [main] wrappers.AddHelpServicesWrapper (AddHelpServicesWrapper.java:93) - Exit fromaddhelpService
+INFO  | 2020-02-03 12:40:25 | [main] testcases.AddHelpServicesCases (AddHelpServicesCases.java:22) - Exit fromaddservice
+DEBUG | 2020-02-03 12:40:25 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:40:25 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition addservice
+DEBUG | 2020-02-03 12:40:26 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:40:26 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:40:26 | [main] testcases.DeleteHelpServicesCases (DeleteHelpServicesCases.java:19) - Enter intodeleteHelpServices
+INFO  | 2020-02-03 12:40:26 | [main] wrappers.DeleteHelpServicesWrapper (DeleteHelpServicesWrapper.java:38) - Enter intodeleteIcon
+INFO  | 2020-02-03 12:40:32 | [main] wrappers.DeleteHelpServicesWrapper (DeleteHelpServicesWrapper.java:50) - Exit fromdeleteIcon
+INFO  | 2020-02-03 12:40:32 | [main] testcases.DeleteHelpServicesCases (DeleteHelpServicesCases.java:23) - Exit fromdeleteHelpServices
+DEBUG | 2020-02-03 12:40:32 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:40:32 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition deleteHelpServices
+DEBUG | 2020-02-03 12:40:32 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:40:32 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:40:32 | [main] testcases.BlogListingCases (BlogListingCases.java:18) - Enter intoblogListing
+INFO  | 2020-02-03 12:40:32 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:39) - Enter intoverifyPage
+INFO  | 2020-02-03 12:40:35 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:47) - Exit fromverifyPage
+INFO  | 2020-02-03 12:40:35 | [main] wrappers.BlogListingWrapper (BlogListingWrapper.java:67) - Enter intosearchBlog
+DEBUG | 2020-02-03 12:41:10 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()2
+DEBUG | 2020-02-03 12:41:10 | [main] utilities.BaseClass (BaseClass.java:141) - in failed conditionblogListing
+DEBUG | 2020-02-03 12:41:10 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:41:10 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:41:10 | [main] testcases.ViewBlogCases (ViewBlogCases.java:20) - Enter intoviewBlogFunctionality
+INFO  | 2020-02-03 12:41:10 | [main] wrappers.ViewBlogWrapper (ViewBlogWrapper.java:36) - Enter intogetSearchresult
+INFO  | 2020-02-03 12:41:15 | [main] wrappers.ViewBlogWrapper (ViewBlogWrapper.java:46) - Exit fromgetSearchresult
+INFO  | 2020-02-03 12:41:15 | [main] wrappers.ViewBlogWrapper (ViewBlogWrapper.java:58) - Enter intogetViewDetails
+DEBUG | 2020-02-03 12:41:50 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()2
+DEBUG | 2020-02-03 12:41:50 | [main] utilities.BaseClass (BaseClass.java:141) - in failed conditionviewBlogFunctionality
+DEBUG | 2020-02-03 12:41:50 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:41:50 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:41:50 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:20) - Enter intosubAdminListingFunctionality
+INFO  | 2020-02-03 12:41:50 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:47) - Enter intosearchUser
+INFO  | 2020-02-03 12:42:00 | [main] wrappers.SubAdminListingWrapper (SubAdminListingWrapper.java:72) - Exit fromsearchUser
+INFO  | 2020-02-03 12:42:00 | [main] testcases.SubAdminListingCases (SubAdminListingCases.java:24) - Exit fromsubAdminListingFunctionality
+DEBUG | 2020-02-03 12:42:00 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:42:00 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition subAdminListingFunctionality
+DEBUG | 2020-02-03 12:42:00 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:42:00 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:42:00 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:19) - Enter intoviewSubadminFunctionality
+INFO  | 2020-02-03 12:42:00 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:41) - Enter intogetSearchDetails
+INFO  | 2020-02-03 12:42:04 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:58) - Exit fromgetSearchDetails
+INFO  | 2020-02-03 12:42:04 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:75) - Enter intoviewdetails
+INFO  | 2020-02-03 12:42:04 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:95) - Exit fromviewdetails
+INFO  | 2020-02-03 12:42:04 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:101) - Enter intoveirfyResult
+INFO  | 2020-02-03 12:42:04 | [main] wrappers.ViewSubAdminWrapper (ViewSubAdminWrapper.java:106) - Exit fromveirfyResult
+INFO  | 2020-02-03 12:42:04 | [main] testcases.ViewSubAdminCases (ViewSubAdminCases.java:25) - Exit fromviewSubadminFunctionality
+DEBUG | 2020-02-03 12:42:04 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:42:04 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition viewSubadminFunctionality
+DEBUG | 2020-02-03 12:42:05 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:42:05 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:42:05 | [main] testcases.AppUserListingCases (AppUserListingCases.java:19) - Enter intoappUserListingFunctionality
+INFO  | 2020-02-03 12:42:05 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:44) - Enter intosearchUser
+INFO  | 2020-02-03 12:42:14 | [main] wrappers.AppUserListingWrapper (AppUserListingWrapper.java:67) - Exit fromsearchUser
+INFO  | 2020-02-03 12:42:14 | [main] testcases.AppUserListingCases (AppUserListingCases.java:23) - Exit fromappUserListingFunctionality
+DEBUG | 2020-02-03 12:42:14 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:42:14 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition appUserListingFunctionality
+DEBUG | 2020-02-03 12:42:14 | [main] utilities.BaseClass (BaseClass.java:79) - Enter intobeforeMethod
+DEBUG | 2020-02-03 12:42:14 | [main] utilities.BaseClass (BaseClass.java:81) - Exit frombeforeMethod
+INFO  | 2020-02-03 12:42:14 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:20) - Enter intoviewAppUserFunctionality
+INFO  | 2020-02-03 12:42:14 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:44) - Enter intogetSearchDetails
+INFO  | 2020-02-03 12:42:19 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:67) - Exit fromgetSearchDetails
+INFO  | 2020-02-03 12:42:19 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:89) - Enter intogetViewDetails
+INFO  | 2020-02-03 12:42:20 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:112) - Exit fromgetViewDetails
+INFO  | 2020-02-03 12:42:20 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:117) - Enter intocompareValues
+INFO  | 2020-02-03 12:42:20 | [main] wrappers.ViewAppUserWrapper (ViewAppUserWrapper.java:129) - Exit fromcompareValues
+INFO  | 2020-02-03 12:42:20 | [main] testcases.ViewAppUserCases (ViewAppUserCases.java:26) - Exit fromviewAppUserFunctionality
+DEBUG | 2020-02-03 12:42:20 | [main] utilities.BaseClass (BaseClass.java:138) - result.getStatus()1
+DEBUG | 2020-02-03 12:42:20 | [main] utilities.BaseClass (BaseClass.java:157) - in success condition viewAppUserFunctionality

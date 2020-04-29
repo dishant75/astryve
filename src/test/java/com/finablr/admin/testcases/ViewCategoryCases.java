@@ -18,6 +18,7 @@ public class ViewCategoryCases extends BaseClass {
 	public void viewCategory()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+	    extenttest=extent.createTest("To verify that View Category.");
 		ViewCategoryWrapper vc= new ViewCategoryWrapper(driver);
 		log.info("Get the All Category Information from the search result:");
 		vc.getCategoryDetails();

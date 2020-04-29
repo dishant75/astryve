@@ -18,6 +18,7 @@ public class ViewBlogCases extends BaseClass {
 	public void viewBlogFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify that View Blog Functionality");
 		ViewBlogWrapper vw= new ViewBlogWrapper(driver);
 		vw.getSearchresult();
 		vw.getViewDetails();

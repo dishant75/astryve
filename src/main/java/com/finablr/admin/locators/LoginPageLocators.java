@@ -8,5 +8,8 @@ public class LoginPageLocators {
 	public static final String CHKBOX_REMEMBERME_XPATH = "//label[@class='form-check-label']";
 	public static final String LINK_FORGOTPASSWORD_XPATH = "//a[@role='button']";
 	public static final String Username_Xpath= "(//span[contains(text(),'Hello')])[2]";
+	
+	
+	
 }
  

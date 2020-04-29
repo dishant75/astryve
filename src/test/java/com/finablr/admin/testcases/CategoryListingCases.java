@@ -17,6 +17,7 @@ public class CategoryListingCases extends BaseClass {
 	public void categoryListing()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify Category Listing.");
 		CategoryListingWrapper cl= new CategoryListingWrapper(driver);
 		log.info("Verify the Page Title");
 		cl.verifyPageTitle();

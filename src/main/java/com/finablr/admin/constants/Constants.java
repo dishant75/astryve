@@ -8,5 +8,7 @@ public class Constants {
 	public static final String LOGIN_PAGE_EXCEL="login_page_data.xls";
 	public static final String File_dir=System.getProperty("user.dir");
 	public static final String TestData= File_dir+"\\testData\\";
+	public static final String ExtentReport= File_dir+"\\test-output\\";
+	public static final String Screenshot=File_dir+"\\Screenshot\\";
 	
 }

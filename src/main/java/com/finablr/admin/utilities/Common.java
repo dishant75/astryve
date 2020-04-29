@@ -586,7 +586,7 @@ System.out.println("***********************");
 	 * @return StringBuffer object.
 	 */
 	public static String generateRandomChars(int length) {
-		String random = RandomStringUtils.random(length);
+		String random = RandomStringUtils.randomAlphabetic(length);
 		return random;
 	}
 
@@ -596,11 +596,10 @@ System.out.println("***********************");
 	 * @param length
 	 * @return
 	 */
-	public static int generateRandomNumber(int length) {
+	public static String generateRandomNumber(int length) {
 
-		Random rand = new Random();
-		int numNoRange = rand.nextInt();
-		return numNoRange;
+		String randomNo= RandomStringUtils.randomNumeric(length);
+		return randomNo;
 
 	}
 

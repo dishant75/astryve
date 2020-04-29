@@ -17,7 +17,7 @@ public class BlogListingWrapper {
 	
 	WebDriver driver;
 	String Actual_Page_Title="Blog Management";
-	String Actual_BlogTitle="What in God’s name is an ISA?";
+	String Actual_BlogTitle="EXCLUSIVE: This Is How the U.S. Military’s Massive Facial Recognition System Works";
 	String Filter="Category";
 	String Category="Business and Finance";
 	String pageTitle,blogtitle;

@@ -16,6 +16,7 @@ public class IllustrationListingCases extends BaseClass {
 	public void illustrationListing()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest= extent.createTest("To Verify that Illustration Listing Scenario.");
 		IllustrationListingWrapper iw= new IllustrationListingWrapper(driver);
 		iw.navigateIllustrationPage();
 		iw.illustartionListing();

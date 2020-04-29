@@ -17,6 +17,7 @@ public class ViewTransactionCases extends BaseClass {
 	public void viewTransaction()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest(" To Verify View Transaction Screen");
 		ViewTransactionWrapper vw= new ViewTransactionWrapper(driver);
 		log.info("Select Service from the First Dropdwon");
 		vw.selectFilter();

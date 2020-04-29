@@ -18,6 +18,7 @@ public class ViewAppUserCases extends BaseClass {
 	{
 		
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To verify that ViewAppUser Functionality");
 		ViewAppUserWrapper vw= new ViewAppUserWrapper(driver);
 		vw.getSearchDetails();
 		vw.getViewDetails();

@@ -16,7 +16,7 @@ import com.finablr.admin.utilities.Common;
 public class AddHelpServicesWrapper {
 	
 	WebDriver driver;
-	String PageTitle,AddserviceTitle;
+	String PageTitle,AddserviceTitle,randomcharacter;
 	String ActualPageTitle="Help Services";
 	String Actual_Addservice_Title="Add Service";
 	String Service_Name="Test Demo";
@@ -78,7 +78,12 @@ public class AddHelpServicesWrapper {
 		Common.pause(1);
 		Common.clickableElement(enterservice, driver);
 		Common.clickOn(driver, enterservice);
-		enterservice.sendKeys(Service_Name);
+		Common.pause(1);
+		randomcharacter=Common.generateRandomChars(5);
+		randomcharacter=randomcharacter.toLowerCase();
+		Common.pause(1);
+		System.out.println("Service Name is: "+randomcharacter);
+		enterservice.sendKeys(Service_Name+" "+randomcharacter);
 		Common.pause(1);
 		uploadimg.sendKeys(Constants.TestData+"callOff.png");
 		Common.pause(2);

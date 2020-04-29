@@ -16,7 +16,6 @@ public class LoginPageWrapper {
 
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(LoginPageWrapper.class);
-
 	
 	public LoginPageWrapper(WebDriver remotedriver) {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
@@ -50,6 +49,7 @@ public class LoginPageWrapper {
 		Common.waitForElement(driver, txtboxUsername);
 		txtboxUsername.sendKeys(uname);
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());
+		System.out.println("Enter username");
 	}
 
 //	Method to enter the Password
@@ -74,6 +74,9 @@ public class LoginPageWrapper {
 		Assert.assertTrue(getuname.equalsIgnoreCase("Hello Beta User"));
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());	
 	}
+	
+	
+	
 	
 	/*public void checkRemeberMe()
 	{

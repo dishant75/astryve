@@ -17,6 +17,7 @@ public class ViewSubAdminCases extends BaseClass {
 	public void viewSubadminFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest= extent.createTest("To verify that ViewSubAdmin Functionality.");
 		ViewSubAdminWrapper vw= new ViewSubAdminWrapper(driver);
 		vw.getSearchDetails();
 		vw.viewdetails();

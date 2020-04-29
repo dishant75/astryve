@@ -17,7 +17,7 @@ public class TemplateListingCases extends BaseClass {
 	public void templateListing()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
-		log.info("Verify Page title.");
+		extenttest=extent.createTest("To Verify TemplateListing.");
 		TemplateListingWrapper tw= new TemplateListingWrapper(driver);
 		tw.verifyPageTitle();
 		log.info("Get the Template Code from the Listing");

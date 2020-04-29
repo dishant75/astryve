@@ -17,6 +17,7 @@ public class AddIceBreakerCases extends BaseClass {
 	public void addIceBreakerFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify that AddIceBreaker Functionality");
 		AddIcebreakerWrapper aw= new AddIcebreakerWrapper(driver);
 		aw.verifyPageTitle();
 		aw.addIcebreaker();

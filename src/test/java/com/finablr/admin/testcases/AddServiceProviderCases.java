@@ -18,6 +18,7 @@ public class AddServiceProviderCases extends BaseClass {
 	public void addProviderFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To verify that Add service Provider  Test cases.");
 		AddServiceProviderWrapper aw= new AddServiceProviderWrapper(driver);
 		aw.verifyTitle();
 		aw.addProvider();

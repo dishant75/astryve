@@ -26,6 +26,7 @@ public class LoginPageCases extends BaseClass {
 	@Test
 	public void login() {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To Verify User is able to Login in the Application");
 		LoginPageWrapper lp = new LoginPageWrapper(driver);
 		lp.enterUsername(ReadPropertiesFile.getProperty("username"));
 		log.info("Entered the Correct Username");

@@ -17,6 +17,7 @@ public class AddBlogCases extends BaseClass {
 	public void addBlogFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To verify that Add Blog Functionality");
 		AddBlogWrapper aw= new AddBlogWrapper(driver);
 		aw.verifyPageTitle();
 		aw.addBlog();

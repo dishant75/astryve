@@ -17,6 +17,7 @@ public class AddCategoryCases extends BaseClass {
 	public void addCategory()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest= extent.createTest("To verify that Add category Test Case.");
 		AddCategoryWrapper aw= new AddCategoryWrapper(driver);
 		aw.addDetailsCategory();
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());

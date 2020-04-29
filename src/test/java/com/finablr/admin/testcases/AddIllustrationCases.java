@@ -17,6 +17,7 @@ public class AddIllustrationCases extends BaseClass {
 	public void addIllustrationFunctionality()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest= extent.createTest("To verify that Add Illustration Scenario.");
 		AddIllustrationWrapper ai= new AddIllustrationWrapper(driver);
 		ai.addEvent();
 		log.info(LogConstants.LOG_EXIT+Thread.currentThread().getStackTrace()[1].getMethodName());

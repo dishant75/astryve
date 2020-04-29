@@ -15,6 +15,7 @@ public class AddHelpServicesCases extends BaseClass {
 	
 	public void addservice() {
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest=extent.createTest("To verify that Add help Services Functionality.");
 		AddHelpServicesWrapper aw= new AddHelpServicesWrapper(driver);
 		aw.helpserviceListing();
 		aw.addhelpService();

@@ -17,6 +17,7 @@ public class AddCountryServiceCases extends BaseClass {
 	public void addServices()
 	{
 		log.info(LogConstants.LOG_ENTER+Thread.currentThread().getStackTrace()[1].getMethodName());
+		extenttest= extent.createTest("To Verify that Add Country Service Test Case.");
 		AddCountryServiceWrapper ac= new AddCountryServiceWrapper(driver);
 		ac.verifyPageTitle();
 		ac.addCountryService();
