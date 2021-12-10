@@ -19,7 +19,7 @@
 		<apache-poiooxml-version>4.1.0</apache-poiooxml-version>
 		<Selenium-jar-version>3.141.59</Selenium-jar-version>
 		<Log4j-code-version>2.11.1</Log4j-code-version>
-		<Log4j-api-version>2.11.1</Log4j-api-version>
+		<Log4j-api-version>2.15.0</Log4j-api-version>
 		<common-io-version>2.6</common-io-version>
 		<commons-lang3-version>3.9</commons-lang3-version>
 	</properties>
