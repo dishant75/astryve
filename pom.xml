@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit-version>3.8.1</junit-version>
 		<testng-version>6.14.3</testng-version>
-		<apache-poi-version>4.1.0</apache-poi-version>
+		<apache-poi-version>4.1.1</apache-poi-version>
 		<apache-poiooxml-version>4.1.0</apache-poiooxml-version>
 		<Selenium-jar-version>3.141.59</Selenium-jar-version>
 		<Log4j-code-version>2.11.1</Log4j-code-version>
